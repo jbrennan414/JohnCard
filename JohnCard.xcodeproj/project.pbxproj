@@ -13,6 +13,10 @@
 		30E152DC2591812300208045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E152DB2591812300208045 /* Preview Assets.xcassets */; };
 		30E152E72591812300208045 /* JohnCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E152E62591812300208045 /* JohnCardTests.swift */; };
 		30E152F22591812300208045 /* JohnCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E152F12591812300208045 /* JohnCardUITests.swift */; };
+		30E153042591857200208045 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30E153032591857200208045 /* Pacifico-Regular.ttf */; };
+		30E153092591862300208045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E153082591862300208045 /* LaunchScreen.storyboard */; };
+		30E1530E259189FA00208045 /* John_Brennan_Easy-Resize.com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30E1530D259189FA00208045 /* John_Brennan_Easy-Resize.com.jpg */; };
+		30E153132591923100208045 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E153122591923100208045 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		30E152ED2591812300208045 /* JohnCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E152F12591812300208045 /* JohnCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnCardUITests.swift; sourceTree = "<group>"; };
 		30E152F32591812300208045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E153032591857200208045 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		30E153082591862300208045 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E1530D259189FA00208045 /* John_Brennan_Easy-Resize.com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John_Brennan_Easy-Resize.com.jpg"; sourceTree = "<group>"; };
+		30E153122591923100208045 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		30E152D32591812200208045 /* JohnCard */ = {
 			isa = PBXGroup;
 			children = (
+				30E153022591854100208045 /* fonts */,
 				30E152D42591812200208045 /* JohnCardApp.swift */,
 				30E152D62591812200208045 /* ContentView.swift */,
 				30E152D82591812300208045 /* Assets.xcassets */,
+				30E1530D259189FA00208045 /* John_Brennan_Easy-Resize.com.jpg */,
 				30E152DD2591812300208045 /* Info.plist */,
 				30E152DA2591812300208045 /* Preview Content */,
+				30E153082591862300208045 /* LaunchScreen.storyboard */,
+				30E153122591923100208045 /* InfoView.swift */,
 			);
 			path = JohnCard;
 			sourceTree = "<group>";
@@ -128,6 +140,14 @@
 				30E152F32591812300208045 /* Info.plist */,
 			);
 			path = JohnCardUITests;
+			sourceTree = "<group>";
+		};
+		30E153022591854100208045 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30E153032591857200208045 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E1530E259189FA00208045 /* John_Brennan_Easy-Resize.com.jpg in Resources */,
+				30E153042591857200208045 /* Pacifico-Regular.ttf in Resources */,
+				30E153092591862300208045 /* LaunchScreen.storyboard in Resources */,
 				30E152DC2591812300208045 /* Preview Assets.xcassets in Resources */,
 				30E152D92591812300208045 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E152D72591812200208045 /* ContentView.swift in Sources */,
+				30E153132591923100208045 /* InfoView.swift in Sources */,
 				30E152D52591812200208045 /* JohnCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
